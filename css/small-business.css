@@ -1,0 +1,129 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.7em;
+}
+
+a {
+    font-weight: bold;
+}
+
+a.homegreekhome {
+    color: #D32F2F;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 2.4em;   
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-top: -2px;
+}
+
+h1,h2,h3 {
+    color: #727272;
+}
+
+h3 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+hr.rulestyle { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+hr.rulestyle3 {
+    border-top: 1px dashed #8c8b8b;
+}
+
+.img-rounded {
+    padding: 10px;
+    border: 1px solid #00BCD4;
+}
+
+.navbar-fixed-top .nav {
+    padding: 5px 0;
+}
+
+.navbar-inverse {
+    background-color: #00BCD4;
+    border-color: #00BCD4;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.btn-primary {
+    color: #fff;
+    font-weight: 100;
+    background-color: #D32F2F;
+    border-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    color: #727272;
+    background-color: #fff;
+    border-color: #727272;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 100;
+    color: #fff;
+    background-color: #616161;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+}
+
+.handwriting {
+    font-family: 'Loved by the King', cursive;
+    font-size: 1.8em;
+}
+
+.properties {
+    font-size: 1.85em;
+}
+
+
+footer {
+    padding: 30px 0;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
