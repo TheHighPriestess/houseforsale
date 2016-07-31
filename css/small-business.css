@@ -17,7 +17,7 @@ a {
 }
 
 a.homegreekhome {
-    color: #D32F2F;
+    color: #727272;
 }
 
 h1 {
@@ -74,7 +74,24 @@ hr.rulestyle3 {
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 300;
+}
+
+.navbar .nav > li > a:hover {
+  font-weight: 700;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4;
+}
+
+.btn-default:hover {
+    color: #212121;
+    background-color: #fff;
+    border-color: #00BCD4;
+
 }
 
 .btn-primary {
@@ -105,8 +122,8 @@ hr.rulestyle3 {
 }
 
 .handwriting {
-    font-family: 'Loved by the King', cursive;
-    font-size: 1.8em;
+    font-family: 'Rancho', cursive;    
+    font-size: 1.9em;
 }
 
 .properties {
