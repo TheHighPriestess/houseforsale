@@ -96,9 +96,10 @@ hr.rulestyle3 {
 
 .btn-primary {
     color: #fff;
-    font-weight: 100;
+    font-weight: 500;
     background-color: #D32F2F;
     border-color: #fff;
+    letter-spacing: 1px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -124,6 +125,16 @@ hr.rulestyle3 {
 .handwriting {
     font-family: 'Rancho', cursive;    
     font-size: 1.9em;
+}
+
+.navbar-brand {
+    margin-top: -10px;
+}
+
+.hgh {
+    background-color: #b6b6b6;
+    margin-top: -10px;
+    font-weight: 500;
 }
 
 .properties {
