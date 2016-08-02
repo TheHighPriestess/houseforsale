@@ -1,28 +1,46 @@
-/*!
- * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+/* 
+
+COLORS
+#00BCD4:cyan (top nav, image border)
+#D32F2F:red (button, house logo, "for sale by owner" text)
+#616161:dark gray (well)
+#212121:body text
+#727272: h2,h3;  
+
+TABLE OF CONTENTS
+-Basic
+-Heading and Top Nav
+-Typography
+-Sidebar
+-Google Maps
+-Copyright
+-Media Query to change the Bootstrap NavBar Breakpoint 
+
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/* Basic */
+/*-----------------------------------------------------------------------------------*/
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     color: #212121;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
     font-size: 1.7em;
+    font-weight: 100;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */  
 }
 
 a {
     font-weight: bold;
 }
 
-a.homegreekhome {
-    color: #727272;
-}
+
 
 h1 {
     font-weight: 100;
-    font-size: 2.4em;   
+    font-size: 3.5em;
+    font-family: 'Rancho', cursive; 
+    color: #D32F2F;  
 }
 
 h2 {
@@ -31,13 +49,14 @@ h2 {
     margin-top: -2px;
 }
 
-h1,h2,h3 {
+h2,h3 {
     color: #727272;
 }
 
 h3 {
     font-weight: 700;
     margin-top: 10px;
+
 }
 
 hr.rulestyle { 
@@ -98,7 +117,7 @@ hr.rulestyle3 {
     color: #fff;
     font-weight: 500;
     background-color: #D32F2F;
-    border-color: #fff;
+    border-color: #D32F2F;
     letter-spacing: 1px;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -118,7 +137,7 @@ hr.rulestyle3 {
     font-weight: 100;
     color: #fff;
     background-color: #616161;
-    border: 1px solid #e3e3e3;
+
     border-radius: 0px;
 }
 
@@ -132,9 +151,19 @@ hr.rulestyle3 {
 }
 
 .hgh {
-    background-color: #b6b6b6;
+    background-color: #fff;
+    color: #727272;
+    border: 1px solid #727272;
     margin-top: -10px;
     font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.hgh:hover {
+    background-color: #D32F2F;
+    color: #fff;
+    border: none;
 }
 
 .properties {
@@ -144,6 +173,10 @@ hr.rulestyle3 {
 
 footer {
     padding: 30px 0;
+}
+
+footer p {
+    font-size: .75em;
 }
 
 @media(min-width:768px) {
