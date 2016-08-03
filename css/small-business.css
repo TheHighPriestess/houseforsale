@@ -9,12 +9,12 @@ COLORS
 
 TABLE OF CONTENTS
 -Basic
--Heading and Top Nav
+-Top Navigation
 -Typography
--Sidebar
--Google Maps
--Copyright
--Media Query to change the Bootstrap NavBar Breakpoint 
+-Images
+-Buttons
+-Footer
+-Media Queries 
 
 */
 
@@ -34,48 +34,20 @@ a {
     font-weight: bold;
 }
 
-
-
-h1 {
-    font-weight: 100;
-    font-size: 3.5em;
-    font-family: 'Rancho', cursive; 
-    color: #D32F2F;  
-}
-
-h2 {
-    font-weight: 300;
+.well {
+    background-color: #616161;
+    border-radius: 0px;
+    color: #fff;
     font-size: 1.2em;
-    margin-top: -2px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 19px;   
 }
 
-h2,h3 {
-    color: #727272;
-}
-
-h3 {
-    font-weight: 700;
-    margin-top: 10px;
-
-}
-
-hr.rulestyle { 
-  border: 0; 
-  height: 1px; 
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-}
-
-hr.rulestyle3 {
-    border-top: 1px dashed #8c8b8b;
-}
-
-.img-rounded {
-    padding: 10px;
-    border: 1px solid #00BCD4;
-}
+/* ---------------------------------------------------*/
+/* Top Navigation */
+/* ---------------------------------------------------*/
 
 .navbar-fixed-top .nav {
     padding: 5px 0;
@@ -100,76 +72,114 @@ hr.rulestyle3 {
   font-weight: 700;
 }
 
-.btn-default {
-    color: #fff;
-    background-color: #00BCD4;
-    border-color: #00BCD4;
-}
-
-.btn-default:hover {
-    color: #212121;
-    background-color: #fff;
-    border-color: #00BCD4;
-
-}
-
-.btn-primary {
-    color: #fff;
-    font-weight: 500;
-    background-color: #D32F2F;
-    border-color: #D32F2F;
-    letter-spacing: 1px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
-.btn-primary:hover {
-    color: #727272;
-    background-color: #fff;
-    border-color: #727272;
-}
-
-.well {
-    min-height: 20px;
-    padding: 19px;
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    font-weight: 100;
-    color: #fff;
-    background-color: #616161;
-
-    border-radius: 0px;
-}
-
-.handwriting {
-    font-family: 'Rancho', cursive;    
-    font-size: 1.9em;
-}
-
 .navbar-brand {
     margin-top: -10px;
 }
 
-.hgh {
-    background-color: #fff;
-    color: #727272;
-    border: 1px solid #727272;
-    margin-top: -10px;
-    font-weight: 500;
-    font-size: 1em;
-    letter-spacing: 1px;
+/*---------------------------------*/
+/* Typography */
+/*---------------------------------*/
+
+
+h1 {
+    color: #D32F2F; 
+    font-family: 'Rancho', cursive;
+    font-size: 3.5em; 
+    font-weight: 100;     
 }
 
-.hgh:hover {
-    background-color: #D32F2F;
-    color: #fff;
-    border: none;
+h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: -2px;
+}
+
+h3 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+h2,h3 {
+    color: #727272;
+}
+
+hr.rulestyle { 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  border: 0; 
+  height: 1px; 
+}  
+   
+hr.rulestyle-dotted {
+    border-top: 1px dashed #8c8b8b;
 }
 
 .properties {
     font-size: 1.85em;
 }
 
+/* ---------------------------------------------------*/
+/* Images */
+/* ---------------------------------------------------*/
+
+.img-rounded {
+    padding: 10px;
+    border: 1px solid #00BCD4;
+}
+
+/* ---------------------------------------------------*/
+/* Buttons */
+/* ---------------------------------------------------*/
+
+.btn-default {
+    background-color: #00BCD4;
+    border-color: #00BCD4;
+    color: #fff;   
+}
+
+.btn-default:hover {
+    background-color: #fff;
+    border-color: #00BCD4;
+    color: #212121;
+}
+
+.btn-primary {
+    background-color: #D32F2F;
+    border-color: #D32F2F;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 15px;  
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #727272;
+    color: #727272;   
+}
+
+.hgh {
+    background-color: #fff;
+    border: 1px solid #727272;
+    color: #727272;
+    font-size: .85em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: -10px;   
+}
+
+.hgh:hover {
+    background-color: #D32F2F;
+    border: none;
+    color: #fff;  
+}
+
+/* ---------------------------------------------------*/
+/* Footer */
+/* ---------------------------------------------------*/
 
 footer {
     padding: 30px 0;
@@ -179,11 +189,14 @@ footer p {
     font-size: .75em;
 }
 
+/* ---------------------------------------------------*/
+/* Media Queries */
+/* ---------------------------------------------------*/
+
 @media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
-
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
